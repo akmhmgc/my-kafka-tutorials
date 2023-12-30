@@ -1,1 +1,5 @@
 https://developer.confluent.io/tutorials/kafka-console-consumer-read-specific-offsets-partitions/kafka.html
+
+パーティションへのレコードの振り分けられ方はレコードのキーのhash値に依存しているため、必ずしも各パーティションにデータが均等に振り分けられるとは限らない
+
+特定のオフセットを指定して読み出しを行うためには、オフセットオプションを指定すればOK
