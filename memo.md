@@ -1,0 +1,8 @@
+https://developer.confluent.io/tutorials/kafka-console-consumer-producer-basics/kafka.html
+
+Consumerはデフォルトでは起動してからトピックに到着したデータのみを読み取るので、それ以前のメッセージは受けらない。
+`--from-beginning`オプションをつけると読み取り可能だが、トピックの最初から全て読み取るので本番環境では使用しない方が良い。
+
+Producerをセットアップする際に`key.separator`などのキーとバリューのオプションをつけるとkey,valueをトピックに指定しておくることができる。
+何も指定しないとkeyにはnullが入る。
+Consumerは受け取ったkeyとvalueを表示する際に、Producer側で指定したセパレータを使用する必要はない。
