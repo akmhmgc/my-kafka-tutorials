@@ -19,3 +19,7 @@ https://www.confluent.io/blog/put-several-event-types-kafka-topic/?_ga=2.2268895
 - 同一のトピックに、順序関係はあるがデータ形式が異なるイベントを集めることができる
   - スキーマの設定を、トピックごと・トピックのレコードごと・レコードごと、など柔軟に決めることができる。異なるイベントを一つのトピックで扱いたい場合は、
   「トピックのレコードごと」のスキーマを設定して別のイベントとして扱えば良い
+
+https://developer.confluent.io/tutorials/split-a-stream-of-events-into-substreams/kstreams.html
+インプットトピックから条件分岐で別のトピックにデータを流し込むことができる。
+split()とbranch()を使用する。
