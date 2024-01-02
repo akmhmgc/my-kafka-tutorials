@@ -23,3 +23,11 @@ https://www.confluent.io/blog/put-several-event-types-kafka-topic/?_ga=2.2268895
 https://developer.confluent.io/tutorials/split-a-stream-of-events-into-substreams/kstreams.html
 インプットトピックから条件分岐で別のトピックにデータを流し込むことができる。
 split()とbranch()を使用する。
+
+https://developer.confluent.io/tutorials/merge-many-streams-into-one-stream/kstreams.html
+複数のトピックのデータを一つのトピックにマージすることができる
+
+https://developer.confluent.io/tutorials/filter-a-stream-of-events/kstreams.html
+filterメソッドを使用すると、イベントから不要なものをフィルタリングして他のトピックに渡すことができる
+コンシューマーでイベントをフィルタリングするのではなくフィルタリングして別のトピックに渡している。
+
