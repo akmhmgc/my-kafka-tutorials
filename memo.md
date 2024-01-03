@@ -39,3 +39,7 @@ https://developer.confluent.io/tutorials/create-stateful-aggregation-minmax/kstr
 min/maxを取得する。
 例では全ての期間のイベントを取得しているが、期間のないaggrigationはUPSERTなので最新のデータのみ見れば良いので、コンパクションが可能な気がする。
 イベントを加工してトピックに渡す処理はkqlのチュートリアルでやった
+
+
+https://developer.confluent.io/tutorials/cogrouping-streams/kstreams.html
+複数のトピックからイベントを集計した結果を別のトピックに流す
