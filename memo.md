@@ -34,3 +34,8 @@ filterメソッドを使用すると、イベントから不要なものをフ�
 https://developer.confluent.io/tutorials/create-stateful-aggregation-count/confluent.html?session_ref=https://developer.confluent.io/tutorials/create-stateful-aggregation-count/confluent.html?session_ref=https://developer.confluent.io/tutorials/kafka-console-consumer-read-specific-offsets-partitions/kafka.html
 グループでまとめてカウントする方法について
 グループ化したものを別のトピックに渡す。新しいイベントが来るごとに集計用のトピックが更新されて新しい結果が表示される（UPSERT）
+
+https://developer.confluent.io/tutorials/create-stateful-aggregation-minmax/kstreams.html
+min/maxを取得する。
+例では全ての期間のイベントを取得しているが、期間のないaggrigationはUPSERTなので最新のデータのみ見れば良いので、コンパクションが可能な気がする。
+イベントを加工してトピックに渡す処理はkqlのチュートリアルでやった
