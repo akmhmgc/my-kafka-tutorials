@@ -33,3 +33,4 @@ filterメソッドを使用すると、イベントから不要なものをフ�
 
 https://developer.confluent.io/tutorials/create-stateful-aggregation-count/confluent.html?session_ref=https://developer.confluent.io/tutorials/create-stateful-aggregation-count/confluent.html?session_ref=https://developer.confluent.io/tutorials/kafka-console-consumer-read-specific-offsets-partitions/kafka.html
 グループでまとめてカウントする方法について
+グループ化したものを別のトピックに渡す。新しいイベントが来るごとに集計用のトピックが更新されて新しい結果が表示される（UPSERT）
