@@ -31,3 +31,5 @@ https://developer.confluent.io/tutorials/filter-a-stream-of-events/kstreams.html
 filterメソッドを使用すると、イベントから不要なものをフィルタリングして他のトピックに渡すことができる
 コンシューマーでイベントをフィルタリングするのではなくフィルタリングして別のトピックに渡している。
 
+https://developer.confluent.io/tutorials/create-stateful-aggregation-count/confluent.html?session_ref=https://developer.confluent.io/tutorials/create-stateful-aggregation-count/confluent.html?session_ref=https://developer.confluent.io/tutorials/kafka-console-consumer-read-specific-offsets-partitions/kafka.html
+グループでまとめてカウントする方法について
