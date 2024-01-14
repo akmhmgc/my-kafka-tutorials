@@ -46,8 +46,8 @@ min/maxを取得する。
 
 # Windowing operations
 
-## Tumbling windows
-
 - Tumbling window
   - 固定長で重複しない一連の時間間隔
-
+- Session window
+  - キーに該当するイベントが一定時間以上来なければ、そのセッションは閉じたものとして扱う
+  - イベントのタイミングによってウィンドウの長さが可変
